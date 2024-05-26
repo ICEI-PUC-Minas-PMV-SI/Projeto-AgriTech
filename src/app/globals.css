@@ -79,12 +79,6 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -105,6 +99,13 @@ a {
     color-scheme: dark;
   }
 } */
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
 
 .embed-container {
   height: calc(100vh - 100px);
