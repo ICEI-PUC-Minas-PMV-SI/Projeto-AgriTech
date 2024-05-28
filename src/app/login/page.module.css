@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 66px);
   background: url('/images/background.jpg') no-repeat center center;
   background-size: cover;
   text-align: center;
@@ -18,7 +18,7 @@
 
 .header {
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 20px;
   width: 100px;
 }
@@ -28,31 +28,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(146, 179, 115, 0.8);
+  background: rgba(0, 128, 0, 0.7);
   padding: 20px;
   border-radius: 10px;
   max-width: 800px;
+  margin-bottom: 66px;
 }
 
 .content h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #27639e;
+  color: #fff;
 }
 
 .content p {
   font-size: 1rem;
-  color: #f1f2c2;
+  color: #fff;
   margin: 10px 0;
 }
 
 .footer {
   background: rgba(255, 255, 255, 0.942);
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   font-size: 1rem;
   color: #27639e;
+  padding: 10px;
 }
 
 .menu-button {

@@ -17,10 +17,6 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <img src="/images/logo.jpg" alt="Logo" className={styles.header} />
-      <Link href="/api/auth/login" className={styles["menu-button"]}>
-        <LoginIcon height={30} width={30} color="#c4ced8" />
-        Login
-      </Link>
       <div className={styles.content}>
         <h1>COOPRAFAD</h1>
         <p>
@@ -28,7 +24,7 @@ export default function Login() {
           GARANTIR ALIMENTOS SAUDÁVEIS
         </p>
         <p>
-          <span style={{ color: "#27639e" }}>
+          <span>
             {" "}
             <b>DO CAMPO DIRETO PARA A MESA DOS NOSSOS CLIENTES!</b>
           </span>

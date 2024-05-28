@@ -1,12 +1,20 @@
 import { IframeHTMLAttributes } from "react";
 
-export default function PowerBiIframe(props: IframeHTMLAttributes<HTMLIFrameElement>) {
+export default function PowerBiIframe({
+  iframeAttr,
+  title,
+  src,
+}: {
+  iframeAttr?: IframeHTMLAttributes<HTMLIFrameElement>;
+  title: string;
+  src: string;
+}) {
   // to-do: alterar depois
   return (
     <iframe
-      title="FORNECEDOR COMPRAS SET A DEZ 2023 ATT"
-      {...props}
-      src="https://app.powerbi.com/view?r=eyJrIjoiY2RlMWMzOTEtYTNkYi00MGZkLTlkOWItNDlmMGIzOWY2ZGYzIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9"
+      title={title}
+      {...iframeAttr}
+      src={src}
       frameBorder="0"
       allowFullScreen={true}
       className="embed-container"
