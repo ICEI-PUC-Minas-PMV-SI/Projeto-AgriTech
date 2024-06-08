@@ -8,7 +8,7 @@ export default function getRelatory(currentView: string) {
     case "region":
       return {
         title: "Quantidade de fornecedores por região e cidade",
-        src: "https://app.powerbi.com/view?r=eyJrIjoiNTQ2OTFhNTEtZDZlYS00M2ZlLWE5MDEtMTU0ZTJiODVjYjcxIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9"
+        src: "https://app.powerbi.com/view?r=eyJrIjoiZWZkMjNiMjMtYzZjNC00YTA2LTlkNWMtNWUwZmZiNTExODhlIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9"
       };
     default:
       return {
