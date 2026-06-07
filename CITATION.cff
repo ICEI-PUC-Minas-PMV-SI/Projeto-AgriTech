@@ -1,0 +1,27 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: AGRI-TECH
+authors:
+  - family-names: de Sena Neto
+    given-names: Astor Franco
+  - family-names: de Souza
+    given-names: Jussara Moreira
+  - family-names: Ribeiro Alves
+    given-names: Larissa Moreira
+  - family-names: Bastos Rocha
+    given-names: Laura Luana
+  - family-names: Alves Soares
+    given-names: Paolla
+  - family-names: Marques Pereira
+    given-names: Samuel
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Cristina Dias
+    given-names: Viviane
+keywords:
+  - agricultura familiar
+  - sustentabilidade
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/Projeto-AgriTech
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-08
